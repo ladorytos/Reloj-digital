@@ -4,11 +4,12 @@ body{
     background-image: url(../img/Día-y-noche.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
+    text-transform: uppercase;
 }
 header{
     padding: 20px;
-    text-transform: uppercase;
+    
 }
 h1{
     font-size: 70px;
@@ -19,25 +20,24 @@ li{
 }
 #accountant li{
     font-size: 60px;
-    color:#292C29;
+    color:white;
     display: inline-block;
     
 }
 .clockDate, .horas, .ciudad{
     font-size: 30px;
-    color:#44B221;
+    color:white;
 }
 .btn{
-    color:white;
+    background-color:white;
+    color:orange;
     margin-top:10px;
     padding: 10px;
     text-align: center;
-    width: 200px;
+    width: 240px;
+    font-size: 40px;
+    text-transform: uppercase;
 
-}
-.horas .clock{
-    margin-bottom: 40px;
-    background-color:#EFA028;
 }
 .dropdown-menu{
     width: 200px;
@@ -46,4 +46,9 @@ li{
 .dropdown-menu li{
     display: block;
     margin:10px;
+}
+
+.clickear{
+    background-color:blue;
+    color:white;
 }
